@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de la compra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Comics Online</h1>
+    <div id="cabecera">
+        <p id="usuario"></p>
+            <button id="todo">Mostrar todo</button>
+        <div class="borde">    
+            <button id="filtrar">Filtrar</button>
+            <input type="text" name="filtro" id="filtro">
+            <select id="campoFiltro">
+                <option value="">Seleccione una opción</option>
+                <option value="Nombre">Nombre</option>
+                <option value="Editorial">Editorial</option>
+                <option value="Precio">Precio</option>
+                <option value="Paginas">Paginas</option>
+            </select>
+        </div>
+        <div class="borde">
+            <button id="ordenar">Ordenar</button>
+            <select id="orden">
+                <option value="">Seleccione una opción</option>
+                <option value="Nombre">Nombre</option>
+                <option value="Precio">Precio</option>
+                <option value="Paginas">Paginas</option>
+            </select>
+            <select id="ascdesc">
+                <option value="asc">Menor primero</option>
+                <option value="desc">Mayor primero</option>
+            </select>
+        </div>
+        <button id="listas">Mostrar listas</button>
+        <button id="crearLista">Crear lista</button><pre style='display:inline'>&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;</pre>
+        <button id="admin">Opciones de administrador</button><pre style='display:inline'>&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;&#09;</pre>
+        <button id="salir">Cerrar sesión</button>
+    </div>
+    <div id="contenedor"></div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
